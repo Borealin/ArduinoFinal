@@ -1,0 +1,7 @@
+{
+    "board": "arduino:avr:leonardo",
+    "programmer": "AVRISP mkII",
+    "port": "COM14",
+    "sketch": "FinalWork.ino",
+    "output": "../build"
+}
