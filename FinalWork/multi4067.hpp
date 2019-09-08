@@ -1,3 +1,5 @@
+#ifndef MULTI4067_HPP
+#define MULTI4067_HPP
 #include <stdint.h>
 /*
 hc4067's enable pins conncted to arduino or hc595
@@ -25,3 +27,4 @@ class multi4067 {
     void dWrite(uint8_t pin, uint8_t state);
     void aWrite(uint8_t pin, uint16_t val);
 };
+#endif

@@ -1,3 +1,5 @@
+#ifndef MUXBUTTON_HPP
+#define MUXBUTTON_HPP
 #include <Keyboard.h>
 #include "multi4067.hpp"
 class MUXbutton {
@@ -16,3 +18,4 @@ class MUXbutton {
               multi4067& t_mux);
     void updateState();
 };
+#endif

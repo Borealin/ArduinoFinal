@@ -1,5 +1,4 @@
 #include "MUXbutton.hpp"
-#include <Keyboard.h>
 MUXbutton::MUXbutton(uint16_t t_slot, uint8_t t_key, uint8_t t_pullDirection,
                      multi4067 &t_mux)
     : slot(t_slot),
