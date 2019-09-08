@@ -4,6 +4,12 @@
         "xutility": "cpp",
         "initializer_list": "cpp",
         "iosfwd": "cpp",
-        "xlocbuf": "cpp"
+        "xlocbuf": "cpp",
+        "istream": "cpp",
+        "*.tcc": "cpp",
+        "regex": "cpp",
+        "bitset": "cpp",
+        "set": "cpp",
+        "ios": "cpp"
     }
 }
